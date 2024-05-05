@@ -11,6 +11,9 @@
 		203591642AC2B952002B380B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203591632AC2B952002B380B /* ContentView.swift */; };
 		203591662AC2B953002B380B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 203591652AC2B953002B380B /* Assets.xcassets */; };
 		203591692AC2B953002B380B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 203591682AC2B953002B380B /* Preview Assets.xcassets */; };
+		20605F952AC308A5001EF0EC /* dogs.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20605F932AC308A5001EF0EC /* dogs.mp4 */; };
+		20605F962AC308A5001EF0EC /* parrots.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20605F942AC308A5001EF0EC /* parrots.mp4 */; };
+		209BC0572BE8141700660918 /* rain.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 209BC0562BE8141700660918 /* rain.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,10 @@
 		203591632AC2B952002B380B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		203591652AC2B953002B380B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		203591682AC2B953002B380B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		20605F932AC308A5001EF0EC /* dogs.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = dogs.mp4; sourceTree = "<group>"; };
+		20605F942AC308A5001EF0EC /* parrots.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = parrots.mp4; sourceTree = "<group>"; };
+		209BC0562BE8141700660918 /* rain.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rain.mp4; sourceTree = "<group>"; };
+		209BC0582BE8203200660918 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +58,13 @@
 		203591602AC2B952002B380B /* VideoCropperTest */ = {
 			isa = PBXGroup;
 			children = (
+				209BC0582BE8203200660918 /* Info.plist */,
 				203591612AC2B952002B380B /* VideoCropperTestApp.swift */,
 				203591632AC2B952002B380B /* ContentView.swift */,
 				203591652AC2B953002B380B /* Assets.xcassets */,
+				20605F932AC308A5001EF0EC /* dogs.mp4 */,
+				209BC0562BE8141700660918 /* rain.mp4 */,
+				20605F942AC308A5001EF0EC /* parrots.mp4 */,
 				203591672AC2B953002B380B /* Preview Content */,
 			);
 			path = VideoCropperTest;
@@ -83,6 +94,8 @@
 			dependencies = (
 			);
 			name = VideoCropperTest;
+			packageProductDependencies = (
+			);
 			productName = VideoCropperTest;
 			productReference = 2035915E2AC2B952002B380B /* VideoCropperTest.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +124,8 @@
 				Base,
 			);
 			mainGroup = 203591552AC2B951002B380B;
+			packageReferences = (
+			);
 			productRefGroup = 2035915F2AC2B952002B380B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +141,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				203591692AC2B953002B380B /* Preview Assets.xcassets in Resources */,
+				20605F962AC308A5001EF0EC /* parrots.mp4 in Resources */,
+				20605F952AC308A5001EF0EC /* dogs.mp4 in Resources */,
+				209BC0572BE8141700660918 /* rain.mp4 in Resources */,
 				203591662AC2B953002B380B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,8 +290,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"VideoCropperTest/Preview Content\"";
+				DEVELOPMENT_TEAM = GRC2M9FPD9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VideoCropperTest/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = 7;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -300,8 +322,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"VideoCropperTest/Preview Content\"";
+				DEVELOPMENT_TEAM = GRC2M9FPD9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VideoCropperTest/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = 7;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
